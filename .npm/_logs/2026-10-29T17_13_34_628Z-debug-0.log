@@ -1,0 +1,281 @@
+0 verbose cli /usr/bin/node-20 /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/usr/lib/nodejs20/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/cloudshell-user/rag-chat/.npmrc
+5 silly config load:file:/home/cloudshell-user/.npmrc
+6 silly config load:file:/usr/lib/nodejs20/etc/npmrc
+7 verbose title npm install @aws-sdk/client-bedrock-agent-runtime @aws-sdk/client-bedrock-runtime
+8 verbose argv "install" "@aws-sdk/client-bedrock-agent-runtime" "@aws-sdk/client-bedrock-runtime"
+9 verbose logfile logs-max:10 dir:/home/cloudshell-user/.npm/_logs/2026-10-29T17_13_34_628Z-
+10 verbose logfile /home/cloudshell-user/.npm/_logs/2026-10-29T17_13_34_628Z-debug-0.log
+11 silly packumentCache heap:2041577472 maxSize:510394368 maxEntrySize:255197184
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @aws-sdk/client-bedrock-agent-runtime@*
+15 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-agent-runtime cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-agent-runtime 148ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-agent-runtime set size:undefined disposed:false
+18 silly fetch manifest @aws-sdk/client-bedrock-runtime@*
+19 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-runtime cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-runtime 81ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-runtime set size:undefined disposed:false
+22 silly placeDep ROOT @aws-sdk/client-bedrock-agent-runtime@3.1159.0 OK for: rag-chat@1.0.0 want: *
+23 silly placeDep ROOT @aws-sdk/client-bedrock-runtime@3.1159.0 OK for: rag-chat@1.0.0 want: *
+24 silly fetch manifest tslib@^2.6.2
+25 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/tslib 41ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+28 silly fetch manifest @smithy/core@^3.37.0
+29 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/@smithy%2fcore 50ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore set size:undefined disposed:false
+32 silly fetch manifest @aws-sdk/core@^3.978.7
+33 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcore cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcore 51ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcore set size:undefined disposed:false
+36 silly fetch manifest @smithy/types@^4.19.0
+37 silly packumentCache full:https://registry.npmjs.org/@smithy%2ftypes cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@smithy%2ftypes 94ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@smithy%2ftypes set size:undefined disposed:false
+40 silly fetch manifest @aws-sdk/types@^3.975.0
+41 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftypes cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2ftypes 47ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftypes set size:undefined disposed:false
+44 silly fetch manifest @smithy/node-http-handler@^4.13.0
+45 silly packumentCache full:https://registry.npmjs.org/@smithy%2fnode-http-handler cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/@smithy%2fnode-http-handler 39ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/@smithy%2fnode-http-handler set size:undefined disposed:false
+48 silly fetch manifest @smithy/fetch-http-handler@^5.8.0
+49 silly packumentCache full:https://registry.npmjs.org/@smithy%2ffetch-http-handler cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/@smithy%2ffetch-http-handler 70ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/@smithy%2ffetch-http-handler set size:undefined disposed:false
+52 silly fetch manifest @aws-sdk/credential-provider-node@^3.972.90
+53 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node 95ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node set size:undefined disposed:false
+56 silly fetch manifest @aws-sdk/token-providers@3.1159.0
+57 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftoken-providers cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2ftoken-providers 85ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftoken-providers set size:undefined disposed:false
+60 silly fetch manifest @aws-sdk/middleware-websocket@^3.972.60
+61 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-websocket cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-websocket 53ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-websocket set size:undefined disposed:false
+64 silly fetch manifest @aws-sdk/middleware-eventstream@^3.972.35
+65 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-eventstream cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-eventstream 57ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-eventstream set size:undefined disposed:false
+68 silly fetch manifest @aws-sdk/eventstream-handler-node@^3.972.39
+69 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2feventstream-handler-node cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2feventstream-handler-node 60ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2feventstream-handler-node set size:undefined disposed:false
+72 silly placeDep ROOT @aws-sdk/core@3.978.7 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^3.978.7
+73 silly placeDep ROOT @aws-sdk/credential-provider-node@3.972.90 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^3.972.90
+74 silly placeDep ROOT @aws-sdk/types@3.975.0 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^3.975.0
+75 silly placeDep ROOT @smithy/core@3.38.0 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^3.37.0
+76 silly placeDep ROOT @smithy/fetch-http-handler@5.8.0 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^5.8.0
+77 silly placeDep ROOT @smithy/node-http-handler@4.14.0 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^4.13.0
+78 silly placeDep ROOT @smithy/types@4.19.0 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^4.19.0
+79 silly placeDep ROOT tslib@2.8.1 OK for: @aws-sdk/client-bedrock-agent-runtime@3.1159.0 want: ^2.6.2
+80 silly fetch manifest bowser@^2.11.0
+81 silly packumentCache full:https://registry.npmjs.org/bowser cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/bowser 29ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/bowser set size:undefined disposed:false
+84 silly fetch manifest @aws-sdk/xml-builder@^3.972.42
+85 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fxml-builder cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fxml-builder 65ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fxml-builder set size:undefined disposed:false
+88 silly fetch manifest @smithy/signature-v4@^5.7.4
+89 silly packumentCache full:https://registry.npmjs.org/@smithy%2fsignature-v4 cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/@smithy%2fsignature-v4 42ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/@smithy%2fsignature-v4 set size:undefined disposed:false
+92 silly fetch manifest @aws/lambda-invoke-store@^0.3.0
+93 silly packumentCache full:https://registry.npmjs.org/@aws%2flambda-invoke-store cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/@aws%2flambda-invoke-store 33ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/@aws%2flambda-invoke-store set size:undefined disposed:false
+96 silly fetch manifest @aws-sdk/credential-provider-env@^3.972.78
+97 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-env cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-env 56ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-env set size:undefined disposed:false
+100 silly fetch manifest @aws-sdk/credential-provider-ini@^3.973.23
+101 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-ini cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-ini 74ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-ini set size:undefined disposed:false
+104 silly fetch manifest @aws-sdk/credential-provider-sso@^3.973.22
+105 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-sso cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-sso 75ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-sso set size:undefined disposed:false
+108 silly fetch manifest @smithy/credential-provider-imds@^4.5.2
+109 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcredential-provider-imds cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/@smithy%2fcredential-provider-imds 43ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcredential-provider-imds set size:undefined disposed:false
+112 silly fetch manifest @aws-sdk/credential-provider-http@^3.972.80
+113 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-http cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-http 48ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-http set size:undefined disposed:false
+116 silly fetch manifest @aws-sdk/credential-provider-process@^3.972.78
+117 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-process cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-process 53ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-process set size:undefined disposed:false
+120 silly fetch manifest @aws-sdk/credential-provider-web-identity@^3.972.84
+121 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-web-identity cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-web-identity 57ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-web-identity set size:undefined disposed:false
+124 silly fetch manifest @smithy/types@^4.18.0
+125 silly packumentCache full:https://registry.npmjs.org/@smithy%2ftypes cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@smithy%2ftypes 9ms (cache hit)
+127 silly packumentCache full:https://registry.npmjs.org/@smithy%2ftypes set size:219866 disposed:false
+128 silly placeDep ROOT @aws-sdk/eventstream-handler-node@3.972.39 OK for: @aws-sdk/client-bedrock-runtime@3.1159.0 want: ^3.972.39
+129 silly placeDep ROOT @aws-sdk/middleware-eventstream@3.972.35 OK for: @aws-sdk/client-bedrock-runtime@3.1159.0 want: ^3.972.35
+130 silly placeDep ROOT @aws-sdk/middleware-websocket@3.972.60 OK for: @aws-sdk/client-bedrock-runtime@3.1159.0 want: ^3.972.60
+131 silly placeDep ROOT @aws-sdk/token-providers@3.1159.0 OK for: @aws-sdk/client-bedrock-runtime@3.1159.0 want: 3.1159.0
+132 silly fetch manifest @aws-sdk/nested-clients@^3.997.52
+133 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fnested-clients cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fnested-clients 65ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fnested-clients set size:undefined disposed:false
+136 silly placeDep ROOT @aws-sdk/xml-builder@3.972.42 OK for: @aws-sdk/core@3.978.7 want: ^3.972.42
+137 silly placeDep ROOT @aws/lambda-invoke-store@0.3.0 OK for: @aws-sdk/core@3.978.7 want: ^0.3.0
+138 silly placeDep ROOT @smithy/signature-v4@5.7.5 OK for: @aws-sdk/core@3.978.7 want: ^5.7.4
+139 silly placeDep ROOT bowser@2.15.0 OK for: @aws-sdk/core@3.978.7 want: ^2.11.0
+140 silly placeDep ROOT @aws-sdk/credential-provider-env@3.972.78 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^3.972.78
+141 silly placeDep ROOT @aws-sdk/credential-provider-http@3.972.80 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^3.972.80
+142 silly placeDep ROOT @aws-sdk/credential-provider-ini@3.973.23 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^3.973.23
+143 silly placeDep ROOT @aws-sdk/credential-provider-process@3.972.78 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^3.972.78
+144 silly placeDep ROOT @aws-sdk/credential-provider-sso@3.973.22 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^3.973.22
+145 silly placeDep ROOT @aws-sdk/credential-provider-web-identity@3.972.84 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^3.972.84
+146 silly placeDep ROOT @smithy/credential-provider-imds@4.5.2 OK for: @aws-sdk/credential-provider-node@3.972.90 want: ^4.5.2
+147 silly fetch manifest @aws-sdk/credential-provider-login@^3.972.85
+148 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-login cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-login 48ms (cache miss)
+150 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-login set size:undefined disposed:false
+151 silly placeDep ROOT @aws-sdk/credential-provider-login@3.972.85 OK for: @aws-sdk/credential-provider-ini@3.973.23 want: ^3.972.85
+152 silly placeDep ROOT @aws-sdk/nested-clients@3.997.52 OK for: @aws-sdk/credential-provider-ini@3.973.23 want: ^3.997.52
+153 silly fetch manifest @aws-sdk/signature-v4-multi-region@^3.996.50
+154 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fsignature-v4-multi-region cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fsignature-v4-multi-region 94ms (cache miss)
+156 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fsignature-v4-multi-region set size:undefined disposed:false
+157 silly placeDep ROOT @aws-sdk/signature-v4-multi-region@3.996.50 OK for: @aws-sdk/nested-clients@3.997.52 want: ^3.996.50
+158 silly reify moves {}
+159 silly audit bulk request {
+159 silly audit   '@aws-sdk/client-bedrock-agent-runtime': [ '3.1159.0' ],
+159 silly audit   '@aws-sdk/client-bedrock-runtime': [ '3.1159.0' ],
+159 silly audit   '@aws-sdk/core': [ '3.978.7' ],
+159 silly audit   '@aws-sdk/credential-provider-node': [ '3.972.90' ],
+159 silly audit   '@aws-sdk/types': [ '3.975.0' ],
+159 silly audit   '@smithy/core': [ '3.38.0' ],
+159 silly audit   '@smithy/fetch-http-handler': [ '5.8.0' ],
+159 silly audit   '@smithy/node-http-handler': [ '4.14.0' ],
+159 silly audit   '@smithy/types': [ '4.19.0' ],
+159 silly audit   tslib: [ '2.8.1' ],
+159 silly audit   '@aws-sdk/eventstream-handler-node': [ '3.972.39' ],
+159 silly audit   '@aws-sdk/middleware-eventstream': [ '3.972.35' ],
+159 silly audit   '@aws-sdk/middleware-websocket': [ '3.972.60' ],
+159 silly audit   '@aws-sdk/token-providers': [ '3.1159.0' ],
+159 silly audit   '@aws-sdk/xml-builder': [ '3.972.42' ],
+159 silly audit   '@aws/lambda-invoke-store': [ '0.3.0' ],
+159 silly audit   '@smithy/signature-v4': [ '5.7.5' ],
+159 silly audit   bowser: [ '2.15.0' ],
+159 silly audit   '@aws-sdk/credential-provider-env': [ '3.972.78' ],
+159 silly audit   '@aws-sdk/credential-provider-http': [ '3.972.80' ],
+159 silly audit   '@aws-sdk/credential-provider-ini': [ '3.973.23' ],
+159 silly audit   '@aws-sdk/credential-provider-process': [ '3.972.78' ],
+159 silly audit   '@aws-sdk/credential-provider-sso': [ '3.973.22' ],
+159 silly audit   '@aws-sdk/credential-provider-web-identity': [ '3.972.84' ],
+159 silly audit   '@smithy/credential-provider-imds': [ '4.5.2' ],
+159 silly audit   '@aws-sdk/credential-provider-login': [ '3.972.85' ],
+159 silly audit   '@aws-sdk/nested-clients': [ '3.997.52' ],
+159 silly audit   '@aws-sdk/signature-v4-multi-region': [ '3.996.50' ]
+159 silly audit }
+160 silly tarball no local data for @aws-sdk/signature-v4-multi-region@https://registry.npmjs.org/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.996.50.tgz. Extracting by manifest.
+161 silly tarball no local data for @aws-sdk/nested-clients@https://registry.npmjs.org/@aws-sdk/nested-clients/-/nested-clients-3.997.52.tgz. Extracting by manifest.
+162 silly tarball no local data for @aws-sdk/credential-provider-login@https://registry.npmjs.org/@aws-sdk/credential-provider-login/-/credential-provider-login-3.972.85.tgz. Extracting by manifest.
+163 silly tarball no local data for @smithy/credential-provider-imds@https://registry.npmjs.org/@smithy/credential-provider-imds/-/credential-provider-imds-4.5.2.tgz. Extracting by manifest.
+164 silly tarball no local data for @aws-sdk/credential-provider-web-identity@https://registry.npmjs.org/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.972.84.tgz. Extracting by manifest.
+165 silly tarball no local data for @aws-sdk/credential-provider-sso@https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.973.22.tgz. Extracting by manifest.
+166 silly tarball no local data for @aws-sdk/credential-provider-process@https://registry.npmjs.org/@aws-sdk/credential-provider-process/-/credential-provider-process-3.972.78.tgz. Extracting by manifest.
+167 silly tarball no local data for @aws-sdk/credential-provider-ini@https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.973.23.tgz. Extracting by manifest.
+168 silly tarball no local data for @aws-sdk/credential-provider-http@https://registry.npmjs.org/@aws-sdk/credential-provider-http/-/credential-provider-http-3.972.80.tgz. Extracting by manifest.
+169 silly tarball no local data for @aws-sdk/credential-provider-env@https://registry.npmjs.org/@aws-sdk/credential-provider-env/-/credential-provider-env-3.972.78.tgz. Extracting by manifest.
+170 silly tarball no local data for bowser@https://registry.npmjs.org/bowser/-/bowser-2.15.0.tgz. Extracting by manifest.
+171 silly tarball no local data for @smithy/signature-v4@https://registry.npmjs.org/@smithy/signature-v4/-/signature-v4-5.7.5.tgz. Extracting by manifest.
+172 silly tarball no local data for @aws/lambda-invoke-store@https://registry.npmjs.org/@aws/lambda-invoke-store/-/lambda-invoke-store-0.3.0.tgz. Extracting by manifest.
+173 silly tarball no local data for @aws-sdk/xml-builder@https://registry.npmjs.org/@aws-sdk/xml-builder/-/xml-builder-3.972.42.tgz. Extracting by manifest.
+174 silly tarball no local data for @aws-sdk/token-providers@https://registry.npmjs.org/@aws-sdk/token-providers/-/token-providers-3.1159.0.tgz. Extracting by manifest.
+175 silly tarball no local data for @aws-sdk/middleware-websocket@https://registry.npmjs.org/@aws-sdk/middleware-websocket/-/middleware-websocket-3.972.60.tgz. Extracting by manifest.
+176 silly tarball no local data for @aws-sdk/middleware-eventstream@https://registry.npmjs.org/@aws-sdk/middleware-eventstream/-/middleware-eventstream-3.972.35.tgz. Extracting by manifest.
+177 silly tarball no local data for @aws-sdk/eventstream-handler-node@https://registry.npmjs.org/@aws-sdk/eventstream-handler-node/-/eventstream-handler-node-3.972.39.tgz. Extracting by manifest.
+178 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+179 silly tarball no local data for @smithy/types@https://registry.npmjs.org/@smithy/types/-/types-4.19.0.tgz. Extracting by manifest.
+180 silly tarball no local data for @smithy/node-http-handler@https://registry.npmjs.org/@smithy/node-http-handler/-/node-http-handler-4.14.0.tgz. Extracting by manifest.
+181 silly tarball no local data for @smithy/fetch-http-handler@https://registry.npmjs.org/@smithy/fetch-http-handler/-/fetch-http-handler-5.8.0.tgz. Extracting by manifest.
+182 silly tarball no local data for @smithy/core@https://registry.npmjs.org/@smithy/core/-/core-3.38.0.tgz. Extracting by manifest.
+183 silly tarball no local data for @aws-sdk/types@https://registry.npmjs.org/@aws-sdk/types/-/types-3.975.0.tgz. Extracting by manifest.
+184 silly tarball no local data for @aws-sdk/credential-provider-node@https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.90.tgz. Extracting by manifest.
+185 silly tarball no local data for @aws-sdk/core@https://registry.npmjs.org/@aws-sdk/core/-/core-3.978.7.tgz. Extracting by manifest.
+186 silly tarball no local data for @aws-sdk/client-bedrock-runtime@https://registry.npmjs.org/@aws-sdk/client-bedrock-runtime/-/client-bedrock-runtime-3.1159.0.tgz. Extracting by manifest.
+187 silly tarball no local data for @aws-sdk/client-bedrock-agent-runtime@https://registry.npmjs.org/@aws-sdk/client-bedrock-agent-runtime/-/client-bedrock-agent-runtime-3.1159.0.tgz. Extracting by manifest.
+188 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 162ms
+189 silly audit report {}
+190 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/token-providers/-/token-providers-3.1159.0.tgz 525ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/middleware-websocket/-/middleware-websocket-3.972.60.tgz 526ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-login/-/credential-provider-login-3.972.85.tgz 608ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-env/-/credential-provider-env-3.972.78.tgz 610ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-process/-/credential-provider-process-3.972.78.tgz 647ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/middleware-eventstream/-/middleware-eventstream-3.972.35.tgz 687ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/@aws/lambda-invoke-store/-/lambda-invoke-store-0.3.0.tgz 697ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 691ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/eventstream-handler-node/-/eventstream-handler-node-3.972.39.tgz 701ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/@smithy/fetch-http-handler/-/fetch-http-handler-5.8.0.tgz 701ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.996.50.tgz 724ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.972.84.tgz 731ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.973.22.tgz 736ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/xml-builder/-/xml-builder-3.972.42.tgz 735ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.90.tgz 727ms (cache miss)
+205 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-http/-/credential-provider-http-3.972.80.tgz 789ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.973.23.tgz 794ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/@smithy/signature-v4/-/signature-v4-5.7.5.tgz 914ms (cache miss)
+208 http fetch GET 200 https://registry.npmjs.org/bowser/-/bowser-2.15.0.tgz 927ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/@smithy/node-http-handler/-/node-http-handler-4.14.0.tgz 926ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/@smithy/credential-provider-imds/-/credential-provider-imds-4.5.2.tgz 991ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/types/-/types-3.975.0.tgz 1075ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/client-bedrock-runtime/-/client-bedrock-runtime-3.1159.0.tgz 1280ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/@smithy/types/-/types-4.19.0.tgz 1408ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/client-bedrock-agent-runtime/-/client-bedrock-agent-runtime-3.1159.0.tgz 1495ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/core/-/core-3.978.7.tgz 1815ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/@aws-sdk/nested-clients/-/nested-clients-3.997.52.tgz 2025ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/@smithy/core/-/core-3.38.0.tgz 2421ms (cache miss)
+218 silly ADD node_modules/@aws-sdk/signature-v4-multi-region
+219 silly ADD node_modules/@aws-sdk/nested-clients
+220 silly ADD node_modules/@aws-sdk/credential-provider-login
+221 silly ADD node_modules/@smithy/credential-provider-imds
+222 silly ADD node_modules/@aws-sdk/credential-provider-web-identity
+223 silly ADD node_modules/@aws-sdk/credential-provider-sso
+224 silly ADD node_modules/@aws-sdk/credential-provider-process
+225 silly ADD node_modules/@aws-sdk/credential-provider-ini
+226 silly ADD node_modules/@aws-sdk/credential-provider-http
+227 silly ADD node_modules/@aws-sdk/credential-provider-env
+228 silly ADD node_modules/bowser
+229 silly ADD node_modules/@smithy/signature-v4
+230 silly ADD node_modules/@aws/lambda-invoke-store
+231 silly ADD node_modules/@aws-sdk/xml-builder
+232 silly ADD node_modules/@aws-sdk/token-providers
+233 silly ADD node_modules/@aws-sdk/middleware-websocket
+234 silly ADD node_modules/@aws-sdk/middleware-eventstream
+235 silly ADD node_modules/@aws-sdk/eventstream-handler-node
+236 silly ADD node_modules/tslib
+237 silly ADD node_modules/@smithy/types
+238 silly ADD node_modules/@smithy/node-http-handler
+239 silly ADD node_modules/@smithy/fetch-http-handler
+240 silly ADD node_modules/@smithy/core
+241 silly ADD node_modules/@aws-sdk/types
+242 silly ADD node_modules/@aws-sdk/credential-provider-node
+243 silly ADD node_modules/@aws-sdk/core
+244 silly ADD node_modules/@aws-sdk/client-bedrock-runtime
+245 silly ADD node_modules/@aws-sdk/client-bedrock-agent-runtime
+246 verbose cwd /home/cloudshell-user/rag-chat
+247 verbose os Linux 6.1.188-233.386.amzn2023.x86_64
+248 verbose node v20.20.2
+249 verbose npm  v10.8.2
+250 verbose exit 0
+251 info ok
